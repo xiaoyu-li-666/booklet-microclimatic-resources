@@ -1,32 +1,40 @@
 # Microclimatic Planning & Design — Book Resources
 
-微气候规划与设计图书配套链接。每项资源使用固定编号和独立页面；网站失效时，在同一页面替换目标网址。
+Companion links for a booklet on microclimatic planning and design. Each resource has a permanent ID and its own page. When a website becomes unavailable, replace the destination on that same page.
 
-## 资源目录
+## Resource directory
 
-| 编号 | 主题 | 固定资源页面 |
+| ID | Topic | Stable resource page |
 | --- | --- | --- |
-| R001 | 夏季与冬季的太阳路径 / Solar position | [打开 R001](links/R001.md) |
+| R001 | Summer and winter sun paths / Solar position | [Open R001](links/R001.md) |
 
-## 替换失效链接
+## Replace an unavailable website
 
-1. 打开对应资源页面，例如 `links/R001.md`。
-2. 点击 GitHub 的编辑按钮，修改“当前推荐网站”的链接文字和网址。
-3. 如果新工具的用法或限制不同，同时更新简短说明。
-4. 更新“最后更新”日期并提交。历史修改可在文件的 History 中查看。
+1. Open the resource file, such as `links/R001.md`.
+2. Click GitHub's edit button and update the link text and URL under **Current recommended website**.
+3. Update the usage notes if the replacement tool works differently or has different limitations.
+4. Update the **Last updated** date and commit the change. Previous versions remain available in the file's History.
 
-**请保留编号、文件名和路径。** 例如更换 R001 的网站时，继续使用 `links/R001.md`，不要创建新编号来替代同一资源。
+**Keep each resource ID, filename, and path unchanged.** For example, replace R001's destination within `links/R001.md`; do not assign a new ID to the same resource.
 
-## 在书中使用
+## Links to print in the booklet
 
-书中链接或二维码应指向仓库里相应资源文件的 GitHub 页面，而非文件内的外部网站。例如在 GitHub 打开 `links/R001.md` 后复制浏览器地址。以后只修改文件里的目标网址，书里的入口可以保持不变。
+Point each printed link or QR code to the resource's GitHub page, rather than directly to its external website. Open `links/R001.md` on GitHub and copy the browser address. Updating the destination inside that file then leaves the printed entry point unchanged.
 
-请同时保留仓库名称、GitHub 所有者名称和默认分支 `main`，以维持这些入口地址。若以后绑定自有域名或部署 GitHub Pages，可进一步减少对 GitHub 地址结构的依赖。
+Preserve the repository name, GitHub owner name, and default branch `main` to maintain these addresses.
 
-## 新增资源
+## Shorter URLs
 
-在 `links/` 下新建 `R002.md`，参照 R001 的格式填写资源主题、当前推荐网站、用途、说明和日期；然后在上方目录增加一行。编号使用后不重复分配。
+For print, the preferred long-term option is a domain you own connected to GitHub Pages, with a short, permanent path for each resource, such as `https://example.org/r001/` (illustrative only). The domain and paths can stay the same if the hosting provider changes. The domain must be renewed and maintained.
 
-## 当前范围
+GitHub Pages can also use its free `github.io` address. With the current owner and repository names, an illustrative resource address would be `https://xiaoyu-li-666.github.io/booklet-microclimatic-resources/r001/`. This removes GitHub's file-view path, but the owner and repository names still make it relatively long.
 
-这里只管理链接和简要说明，不存储网站镜像或网页备份。替换网站前应核对其内容是否仍支持书中相关说明。
+**GitHub Pages and these example short paths are not configured or published by this repository yet.** The current working entry points are the Markdown resource pages linked above.
+
+## Add a resource
+
+Create `links/R002.md` using R001 as a template. Include its topic, current recommended website, purpose, usage notes, and update date. Add a row to the directory above. Never reuse an assigned ID for an unrelated resource.
+
+## Scope
+
+This repository manages links and brief descriptions. It does not store website mirrors or webpage backups. Before replacing a destination, check that the new resource still supports the corresponding discussion in the booklet.
